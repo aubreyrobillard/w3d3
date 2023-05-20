@@ -1,0 +1,195 @@
+body {
+    background-color: whitesmoke;
+}
+
+#nav {
+    background-color: #92b2ba;
+    height: 70pt;
+    margin: 20pt auto 10pt auto;
+    max-width: 80%;
+  
+}
+#nav ul {
+    margin: auto;
+    padding: 20pt;
+    text-align: center;
+}
+#nav li{
+    list-style-type: none;
+    display: inline-flex;
+    color: whitesmoke;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    margin: auto;
+    padding: 0 70pt 0 70pt;
+}
+
+#banner img{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    padding: 15pt;
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    right: 12%;
+    top: 30%;
+    font-size: 85px;
+    font-family: 'DM Sans', sans-serif;
+    color: #92b2ba;
+}
+h2{
+    position: absolute;
+    top: 52%;
+    right: 12%;
+    padding: 8pt;
+    background-color: whitesmoke;
+    color: #f0a8bb;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#product{
+    padding: 0;
+    margin: 0;
+    width: 646;
+
+
+}
+
+#row1{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+
+#row2{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+#row3{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+
+#product img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#img1{
+    margin: 0 0 0 15pt;
+    justify-self: space-between;
+}
+
+#footer{
+    background-color: #eeeeee;
+    max-width: 80%;
+    margin: 15pt auto 30pt auto;
+    height: 200pt;
+}
+
+img{
+    margin: 15pt 0 0 0;
+}
+#container{
+    border: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+#logo{
+    position: relative;
+    max-width: 80%;
+    margin: 0 40pt 0 40pt;
+}
+
+#logo img{
+    height: 100px;
+    margin: auto;
+    padding: 10pt;
+    display: block;
+    
+}
+#logo h4{
+    margin: 0;
+    padding: 5pt;
+    text-align: center;
+    color: #f0a8bb
+}
+#logo #social{
+    list-style: none;
+    display: inline;
+    color: #92b2ba
+}
+#logo ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#cs{
+    margin: 0 40pt 0 40pt;
+}
+#cs h3{
+    color: #92b2ba;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+}
+#cs li{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    padding: 5pt;
+    color: #777777;
+}
+#cs ul{
+    padding: 0;
+    margin: 0;
+}
+#fb{
+    margin: 0 40pt 0 40pt;
+}
+#fb h3{
+    color: #92b2ba;
+    font-family: 'DM Sans', sans-serif;
+}
+#fb ul{
+    padding: 0;
+    margin: 0;
+}
+#fb li{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    padding: 5pt;
+    color: #777777;
+}
+
+
+
+#container1{
+    background-color: white;
+    padding: 0;
+    margin: 0, 10pt 10pt 10pt;
+    border: white solid;
+
+}
