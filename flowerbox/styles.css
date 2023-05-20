@@ -38,7 +38,7 @@ body {
     text-align: center;
 }
 
-h1 {
+#banner h1 {
     position: absolute;
     right: 12%;
     top: 30%;
@@ -46,7 +46,7 @@ h1 {
     font-family: 'DM Sans', sans-serif;
     color: #92b2ba;
 }
-h2{
+#banner h2{
     position: absolute;
     top: 52%;
     right: 12%;
@@ -183,13 +183,34 @@ img{
     padding: 5pt;
     color: #777777;
 }
-
-
-
 #container1{
     background-color: white;
     padding: 0;
-    margin: 0, 10pt 10pt 10pt;
-    border: white solid;
+}
 
+#price {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    color: #92b2ba;
+}
+#price h2{
+    margin: 10pt 20pt 10pt 10pt;
+}
+#price h3{
+    margin: 15pt 0 10pt 150pt; 
+    background-color: #f0a8bb;
+    padding: 5pt;
+    color: whitesmoke
+}
+
+#des{
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    list-style-type: none;
+}
+#des li{
+    margin: 0 10pt 10pt 10pt;
+    background-color: whitesmoke;
+    padding: 4pt;
+    color: #777777
 }
