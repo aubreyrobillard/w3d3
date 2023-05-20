@@ -23,7 +23,8 @@ $(() => {
     
     $container.append($('<h3>').text("Slytherin"))
     
-    $container.append($('<h4>').attr('class', 'dog').text("Koa Boa"))
+    $myDog = ($('<h4>').attr('class', 'dog').text("Koa Boa"))
+    $container.append($myDog)
     
     let $wand = ($('<h4>').attr('class', 'wand').text("Holly Wand with Unicorn Hair Core")).append($img.attr('src', $imgSource))
     let $wand2 = ($('<h4>').attr('class', 'wand2').text("Elder Wand"))
@@ -80,8 +81,13 @@ $(() => {
     $wand.remove()
     $wandDescrip.remove()
     $('#beer').remove()    
-
     $wand2.css("color", "olive")
+
+    $myDog.remove()
+
+
+
+
 
    
 
