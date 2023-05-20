@@ -44,12 +44,13 @@ $(() => {
         const $ul = $('<ul>')
     
     $container.append(($ul).attr('storage', 'trunk'))
+    let $leash = $('<li>').addClass("dog").text("Leash")
 
         $ul.append($('<li>').attr('id', 'beer').text("Butter Beer"))
         $ul.append($('<li>').addClass("secret").text("Invisibility Cloak"))
         $ul.append($('<li>').addClass("secret").text("Magic Map"))
         $ul.append($('<li>').addClass("secret").text("Time Turner"))
-        $ul.append($('<li>').addClass("dog").text("Leash"))
+        $ul.append($leash)
         $ul.append($('<li>').text("Bertie Bott's Every Flavor Jelly Beans"))
 
 
@@ -77,7 +78,8 @@ $(() => {
 
    }
 
-    $img.remove()
+   ////// YEAR 5 ///////// 
+   $img.remove()
     $wand.remove()
     $wandDescrip.remove()
     $('#beer').remove()    
@@ -86,10 +88,19 @@ $(() => {
     $myDog.remove()
 
 
+//////// YEAR 6 //////////
+
+$(".secret").hide("slow").delay(2000)
+$(".secret").show("slow")
+
+$leash.addClass("cabbage")
 
 
+$(".cabbage").css("color", "chartreuse")
 
-   
+$leash.removeClass("cabbage")
+
+
 
 
 });
